@@ -1,0 +1,24 @@
+.Picture{
+    display:inline-block;
+    background-color: #eee;
+    border: 1px solid black;
+    margin: 0 0 1.5em;
+    width: 100%;
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+
+    font: inherit;
+    
+}
+figure , figcaption{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+figure img{
+    max-width: 100%;;
+}
